@@ -83,13 +83,16 @@ html, body {
 /*-- End of Services Section --*/
 
 /*-- Start of About Us Section --*/
-.padding {
-	padding-bottom: 2rem;
-}
 .site3 {
 	background-color: #979797;
 }
-
+.left-side {
+	margin-left: 40px;
+}
+.right-us {
+	padding-bottom: 10px;
+	margin-left: -40px;
+}
 /*-- Testimonial Section --*/
 #testimonials h2 {
     text-transform: uppercase;
@@ -119,7 +122,7 @@ hr.new3 {
 }
 /*-- End of Testimonial Section --*/
 
-/*-- Start of Footer Section --*/
+/*-- Start of Contact us Section --*/
 .contact {
 	background: rgba(0,0,0,.5) url(../img/contact-us-background.jpg);
 	background-color: rgba(0,0,0,.5);
@@ -129,13 +132,16 @@ hr.new3 {
 .length {
 	margin: 0px -45px 0px 45px;
 }
-.left-side {
+.left-contact {
 	margin-top: 10px;
 }
-.left-side p {
+.left-contact p {
 	margin-top: 10px;
 }
-/*-- Start of Footer Section --*/
+.right-side {
+	margin-bottom: 60px;
+}
+/*-- End of contact us Section --*/
 
 /*-- Start of Footer Section --*/
 footer {
@@ -160,6 +166,10 @@ hr.light-100 {
 	width: 100%;
 	margin-top: 1rem;
 }
+.footer-form {
+	margin-left: 40px;
+}
+
 /*-- End of Footer Section --*/
 
 /*---Media Queries --*/
