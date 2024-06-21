@@ -222,8 +222,8 @@
 				</div>
 				<div class="col-lg-5 right-side">
 					<h1 class="text-white">Contact Form</h1>
-					<form id="contact_form" name="contact_form" method="post">
-						<div class="mb-5 row">
+					<form id="contact_form" method="post" action="PHP/Contact.php" role="form">
+						<div class="row controls">
 							<div class="col">
 								<label class="text-white">First Name</label>
 								<input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" placeholder="John">
@@ -233,21 +233,21 @@
 								<input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name" placeholder="Doe">
 							</div>
 						</div>
-						<div class="mb-5 row">
+						<div class="row">
 							<div class="col">
 								<label class="text-white" for="email_addr">Email address</label>
 								<input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
 								placeholder="name@example.com">
 							</div>
 							<div class="col">
-								<label class="text-white" for="phone_input">Phone</label>
+								<label class="text-white mt-1" for="phone_input">Phone Number</label>
 								<input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
-								placeholder="Phone">
+								placeholder="0123456789">
 							</div>
 						</div>
-						<div class="mb-5">
+						<div class="mb-4">
 							<label class="text-white" for="message">Message</label>
-							<textarea class="form-control" id="message" name="message" rows="5"></textarea>
+							<textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
 						</div>
 						<button type="submit" class="btn btn-primary px-4 btn-lg">Send</button>
 					</form>
