@@ -151,12 +151,12 @@
 			<div class="row padding">
 				<div class="col-lg-6 left-side">
 					<h2>About Us</h2>
-					<p>We are a registered family and self development learning organisation established in 2014. We have seen great positive results over the years and restored many relationships. Our programs are presented by zandile chiloane, a personal and self development coach. We face so many challenges and anxieties in life, which disturbs our inner peace or our relationships with others. Our organisation primary goal is to restore peace and stability within self and with others. We provide one on one or group training and team activities that stimulate self-development. You will learn skills to equip you deal with ongoing daily challenges.</p>
+					<p>We are a registered family and self development learning organisation established in 2014. We have seen great positive results over the years and restored many relationships. Our programs are presented by zandile<br> chiloane, a personal and self development coach. We face so many <br>challenges and anxieties in life, which disturbs our inner peace or our relationships with others. Our organisation primary goal is to restore <br>peace and stability within self and with others. We provide one on one or<br> group training and team activities that stimulate self-development. You <br>will learn skills to equip you deal with ongoing daily challenges.</p>
 					<br>
 					<button type="button" class="btn btn-outline-dark btn-lg">Learn More</button>
 				</div>
-				<div class="col-lg-6">
-					<iframe class="embed-responsive-item" width="640" height="480" src="img/Welcome1.mp4"></iframe>
+				<div class="col-lg-6 right-us">
+					<img class="embed-responsive-item" width="640" height="420" src="img/Welcome-screen.jpg"></img>
 				</div>
 			</div>
 		</div>
@@ -216,7 +216,7 @@
 		<section class="contact">
 		<div class="container-fluid padding">
 			<div class="row padding length">
-				<div class="col-lg-5 left-side">
+				<div class="col-lg-5 left-contact">
 					<h2 class="text-white">Get in touch</h2>
 					<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor lectus vel arcu gravida, nec lobortis enim sagittis. Quisque interdum vel odio nec sagittis. Praesent varius fringilla mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce in augue urna. Aenean fringilla molestie vestibulum. Cras pulvinar placerat porttitor. Etiam id varius felis</p>
 				</div>
@@ -226,11 +226,11 @@
 						<div class="mb-5 row">
 							<div class="col">
 								<label class="text-white">First Name</label>
-								<input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+								<input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" placeholder="John">
 							</div>
 							<div class="col">
 								<label class="text-white">Last Name</label>
-								<input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+								<input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name" placeholder="Doe">
 							</div>
 						</div>
 						<div class="mb-5 row">
@@ -249,7 +249,7 @@
 							<label class="text-white" for="message">Message</label>
 							<textarea class="form-control" id="message" name="message" rows="5"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary px-4 btn-lg">Post</button>
+						<button type="submit" class="btn btn-primary px-4 btn-lg">Send</button>
 					</form>
 				</div>
 			</div>
@@ -262,11 +262,25 @@
 				<div class="row text-center">
 					<div class="col-md-4">
 						<hr class="light">
-						<h5>Our Hours</h5>
+						<h5>Get in touch</h5>
 						<hr class="light">
-						<p>Monday 09:oo - 17:00</p>
-						<p>Friday 09:oo - 15:00</p>
-						<p>Saturday 09:oo - 13:00</p>
+						<form class="footer-form" id="contact_form" name="contact_form" method="post">
+							<div class="mb-5 row">
+								<div class="col">
+									<input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" placeholder="First & Last Name">
+								</div>
+							</div>
+							<div class="mb-5 row">
+								<div class="col">
+									<input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+									placeholder="name@example.com">
+								</div>
+							</div>
+							<div class="mb-5">
+								<textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary px-4 btn-lg">Send</button>
+						</form>
 					</div>
 					<div class="col-md-4">
 						<hr class="light">
