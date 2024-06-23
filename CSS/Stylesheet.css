@@ -49,9 +49,9 @@ html, body {
 	text-shadow: 1px 1px 10px #000;
 	padding-bottom: 1rem;
 }
-.btn-primary {
-	background-color: #6648b1;
-	border: 1px solid #6648b1;
+.btn {
+	text-decoration: none !important;
+	color: inherit;
 }
 .btn-primary:hover {
 	background-color: #563d7c;
